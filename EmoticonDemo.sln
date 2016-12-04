@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC73D7ED-1331-4628-B44B-723BA95B0FDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3C5071E-D95C-462B-B80A-06E153FE561A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmoticonDemo", "src\EmoticonDemo\EmoticonDemo.xproj", "{A48AC68E-3CD9-4370-8340-0787E0A6AAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A48AC68E-3CD9-4370-8340-0787E0A6AAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48AC68E-3CD9-4370-8340-0787E0A6AAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48AC68E-3CD9-4370-8340-0787E0A6AAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48AC68E-3CD9-4370-8340-0787E0A6AAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A48AC68E-3CD9-4370-8340-0787E0A6AAAC} = {EC73D7ED-1331-4628-B44B-723BA95B0FDA}
+	EndGlobalSection
+EndGlobal
